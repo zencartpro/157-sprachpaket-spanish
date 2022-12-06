@@ -1,7 +1,11 @@
 # 157-sprachpaket-spanish
 Sprachpaket SPANISCH für Zen Cart 1.5.7 deutsch 
 
-* Anpassung des Spanish Language Pack (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack) von torvista  für die deutsche Zen Cart Version 1.5.7
+Hinweis: 
+Freigegebene getestete Versionen für den Einsatz in Livesystemen ausschließlich unter Releases herunterladen:
+* https://github.com/zencartpro/157-sprachpaket-spanish/releases
+
+Anpassung des Spanish Language Pack von torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack) für die deutsche Zen Cart Version 1.5.7
 
 * utf-8
 * Frontend von native speaker übersetzt 

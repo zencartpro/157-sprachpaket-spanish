@@ -1,11 +1,11 @@
 <?php
 /**
- * Zen Cart German Specific
+ * Copyright 2022 torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack)
  * @copyright Copyright 2003-2022 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: button_names.php 2021-12-27 21:11:14Z webchills $
+ * @version $Id: button_names.php 2022-12-06 15:11:14Z webchills $
  */
 
 
@@ -107,4 +107,4 @@ define('BUTTON_READ_REVIEWS_ALT', 'Leer el comentario');
 define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Ir a la descripción de este producto');
 define('BUTTON_MORE_REVIEWS_ALT', 'Leer más comentarios');
 define('BUTTON_VIEW_ALL_ALT', 'Ver Todo');
-define('BUTTON_ASK_A_QUESTION_ALT', 'Frage zum Artikel');
+define('BUTTON_ASK_A_QUESTION_ALT', 'Realice una Pregunta');

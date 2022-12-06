@@ -6,7 +6,7 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: checkout_process.php 2022-02-04 18:50:14Z webchills $
+ * @version $Id: checkout_process.php 2022-12-06 15:50:14Z webchills $
  */
 
 define('EMAIL_TEXT_SUBJECT', 'Confirmación de pedido');
@@ -25,9 +25,9 @@ define('EMAIL_TEXT_PAYMENT_METHOD', 'Método de pago');
 
 define('EMAIL_SEPARATOR', '------------------------------------------------------');
 
-define('EMAIL_GREETING_MR', 'Sehr geehrter Herr');
-define('EMAIL_GREETING_MS', 'Sehr geehrte Frau');
-define('EMAIL_GREETING_NEUTRAL', 'Guten Tag');
+define('EMAIL_GREETING_MR', 'Estimado Sr.');
+define('EMAIL_GREETING_MS', 'Estimada Sra.');
+define('EMAIL_GREETING_NEUTRAL', 'Buenos días');
 // suggest not using # vs No as some spamm protection block emails with these subjects
 define('EMAIL_ORDER_NUMBER_SUBJECT', ' Núm.: ');
 define('HEADING_ADDRESS_INFORMATION', 'Información de dirección');
