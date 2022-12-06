@@ -2,7 +2,7 @@
 define('MODULE_PAYMENT_BRAINTREE_TEXT_ADMIN_TITLE', 'Braintree');
 
 if (IS_ADMIN_FLAG === true) {
-define('MODULE_PAYMENT_BRAINTREE_TEXT_ADMIN_DESCRIPTION', 'Kreditkartenzahlung via Braintree<br/><br /><img src="images/braintree-logo.jpg" alt="Braintree"/><br/><br/><a href="https://www.braintreepayments.com/" target="_blank">Braintree Info</a><br /><br/><a href="https://sandbox.braintreegateway.com/login" target="_blank">Braintree Sandbox Login</a><br/><br/><a href="https://www.braintreegateway.com/login" target="_blank">Braintree Live Login</a>');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_ADMIN_DESCRIPTION', 'Kreditkartenzahlung via Braintree<br><br><img src="images/braintree-logo.png" alt="Braintree"/><br><br>Dieses Modul unterstützt die SCA (Strong Customer Authentication)<br>Stellen Sie sicher, dass in Ihrem Braintree Account 3D Secure aktiviert ist.<br><br><a href="https://www.braintreepayments.com/" target="_blank">Braintree Info</a><br><br><a href="https://sandbox.braintreegateway.com/login" target="_blank">Braintree Sandbox Login</a><br><br><a href="https://www.braintreegateway.com/login" target="_blank">Braintree Live Login</a>');
 }
 
 define('MODULE_PAYMENT_BRAINTREE_TEXT_DESCRIPTION', 'Tarjeta de crédito');
@@ -20,7 +20,7 @@ define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_EXPIRES', 'Fecha de caducidad 
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_ISSUE', 'Fecha de emisión de la tarjeta:');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_MAESTRO_ISSUENUMBER', 'Número de emisión Maestro:');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_CHECKNUMBER', 'Número CVV:');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_CREDIT_CARD_CHECKNUMBER_LOCATION', '(en el reverso de la tarjeta)');
+
 define('MODULE_PAYMENT_BRAINTREE_TEXT_TRANSACTION_FOR', 'transacción para');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_DECLINED', 'Su tarjeta de crédito ha sido rechazada. Pruebe con otra tarjeta o póngase en contacto con su banco para obtener más información');
 define('MODULE_PAYMENT_BRAINTREE_CANNOT_BE_COMPLETED', 'No hemos podido procesar su pedido. Por favor, seleccione otro método de pago o póngase en contacto con el propietario de la tienda para obtener ayuda');
@@ -33,7 +33,7 @@ define('MODULE_PAYMENT_BRAINTREE_TEXT_INSUFFICIENT_FUNDS_ERROR', 'Braintree no h
 define('MODULE_PAYMENT_BRAINTREE_TEXT_ERROR', 'Se ha producido un error al intentar procesar su tarjeta de crédito. Por favor, inténtelo de nuevo, seleccione un método de pago alternativo o póngase en contacto con el propietario de la tienda');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_BAD_CARD', 'Disculpe las molestias, pero no aceptamos la tarjeta de crédito que nos ha facilitado. Por favor, utilice una tarjeta de crédito diferente o verifique que la información que ha introducido es correcta, o póngase en contacto con el propietario de la tienda.');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_BAD_LOGIN', 'Se ha producido un problema al validar su cuenta. Inténtelo de nuevo');
-define('MODULE_PAYMENT_BRAINTREE_TEXT_JS_CC_OWNER', '* El nombre del titular de la tarjeta debe ser al menos ' . CC_PROPIETARIO_LONGITUD_MIN . ' caracteres.\n');
+define('MODULE_PAYMENT_BRAINTREE_TEXT_JS_CC_OWNER', '* El nombre del titular de la tarjeta debe ser al menos ' . CC_OWNER_MIN_LENGTH . ' caracteres.\n');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_JS_CC_NUMBER', '* El número de tarjeta de crédito debe tener al menos ' . CC_NUMBER_MIN_LENGTH . ' caracteres.\n');
 define('MODULE_PAYMENT_BRAINTREE_TEXT_JS_CC_CVV', '* Debe introducirse el número CVV de 3 ó 4 dígitos que figura en el reverso de la tarjeta de crédito.\n');
 define('MODULE_PAYMENT_BRAINTREE_ERROR_AVS_FAILURE_TEXT', 'ALARMA: Error de verificación de dirección.');
@@ -106,7 +106,7 @@ define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_TITLE', '<strong>Rückerstattungen
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_FULL', 'Wenn Sie diese Bestellung vollständig rückerstatten wollen, klicken Sie hier:');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_BUTTON_TEXT_FULL', 'Volle Rückerstattung');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_BUTTON_TEXT_PARTIAL', 'Teilweise Rückerstattung');
-define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_TEXT_FULL_OR', '<br />... oder geben Sie  ');
+define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_TEXT_FULL_OR', '<br>... oder geben Sie  ');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_PAYFLOW_TEXT', '');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_PARTIAL_TEXT', 'den Teilbetrag hier ein und klicken Sie auf Teilweise Rückerstattung');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_SUFFIX', '*Eine vollständige Rückerstattung kann nicht erfolgen, nachdem eine Teilrückerstattung beantragt wurde..<br />*Mehrere Teilrückerstattungen sind bis zum verbleibenden nicht rückerstatteten Saldo zulässig.');
@@ -119,8 +119,6 @@ define('MODULE_PAYMENT_BRAINTREE_ENTRY_AUTH_TITLE', '<strong>Autorisierungen</st
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_AUTH_PARTIAL_TEXT', 'Wenn Sie einen Teil dieser Bestellung autorisieren möchten, geben Sie hier den Betrag ein.:');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_AUTH_BUTTON_TEXT_PARTIAL', 'Autorisierung durchführen');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_AUTH_SUFFIX', '');
-define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_TEXT_COMMENTS', '<strong>Hinweis, der dem Kunden angezeigt wird:</strong>');
-define('MODULE_PAYMENT_BRAINTREE_ENTRY_REFUND_DEFAULT_MESSAGE', 'Erstattet vom Shopinhaber.');
 
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_CAPTURE_TITLE', '<strong>Autorisierungen erfassen</strong>');
 define('MODULE_PAYMENT_BRAINTREE_ENTRY_CAPTURE_FULL', 'Wenn Sie die ausstehenden autorisierten Beträge für diesen Auftrag ganz oder teilweise erfassen möchten, geben Sie den Capture-Betrag ein und wählen Sie, ob dies die endgültige Erfassung für diesen Auftrag ist.  Aktivieren Sie das Bestätigungsfeld, bevor Sie Ihre Capture-Anfrage senden.<br />');
@@ -234,3 +232,5 @@ define('BRAINTREE_ERROR_CODE_2059', 'Error en la verificación de la dirección'
 define('BRAINTREE_ERROR_CODE_2060', 'Error en la verificación de la dirección y el código de seguridad');
 define('BRAINTREE_ERROR_CODE_2061', 'Datos de transacción no válidos');
 define('BRAINTREE_ERROR_CODE_2062', 'Importe de impuestos no válido');
+define('TEXT_CCVAL_ERROR_INVALID_MONTH_EXPIRY','Fecha de caducidad de la tarjeta de crédito no válida Mes: %s');
+define('TEXT_CCVAL_ERROR_INVALID_YEAR_EXPIRY','Fecha de caducidad de la tarjeta de crédito no válida Año: %s');
