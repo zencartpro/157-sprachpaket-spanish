@@ -1,10 +1,12 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2005 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: page_not_found.php 3159 2006-03-11 01:35:04Z drbyte $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ 
+ * @version $Id: page_not_found.php 2010-08-30 15:05:14Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Página No Encontrada');
@@ -21,4 +23,3 @@ define('PAGE_ADVANCED_SEARCH', 'Búsqueda Avanzada');
 define('PAGE_PRODUCTS_NEW', 'Productos Nuevos');
 define('PAGE_SPECIALS', 'Ofertas');
 define('PAGE_REVIEWS', 'Comentarios');
-?>

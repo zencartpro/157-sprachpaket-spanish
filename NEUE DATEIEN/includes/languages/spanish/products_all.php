@@ -5,7 +5,7 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: Scott C Wilson 2019 Jul 27 Modified in v1.5.7 $
+ * @version $Id: products_all.php 2020-03-01 08:28:14Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Todos los Productos');

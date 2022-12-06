@@ -5,7 +5,7 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-  
+ * @version $Id: popup_coupon_help.php 2022-01-14 19:28:14Z webchills $
  */
 
 define('TEXT_CLOSE_WINDOW', 'Cerrar Ventana [x]');

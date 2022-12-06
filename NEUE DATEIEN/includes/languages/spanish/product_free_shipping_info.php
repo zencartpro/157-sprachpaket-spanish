@@ -5,7 +5,8 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: DrByte 2020 May 16 Modified in v1.5.7 $
+ 
+ * @version $Id: product_free_shipping_info.php 2022-01-14 19:05:14Z webchills $
  */
 
 define('TEXT_PRODUCT_NOT_FOUND', 'Lo sentimos, no se encontró el producto.');

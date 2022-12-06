@@ -6,6 +6,7 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
   
+ * @version $Id: shopping_cart.php 2022-01-14 19:52:14Z webchills $
  */
 
 define('TEXT_INFORMATION', 'Puede seguir con el proceso de la compra pinchando en el botón inferior "' . BUTTON_CHECKOUT_ALT . '". Se añade los gastos de envío y impuestos en las páginas siguientes.');//steve changed button name for constant

@@ -1,10 +1,11 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2018 Zen Cart Development Team
+ * Zen Cart German Specific
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: Drbyte Thu Jan 11 13:27:48 2018 -0500 Modified in v1.5.6 $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: button_names.php 2021-12-27 21:11:14Z webchills $
  */
 
 
@@ -54,6 +55,7 @@ define('BUTTON_IMAGE_READ_REVIEWS', 'button_read_reviews.gif');
 define('BUTTON_IMAGE_GOTO_PROD_DETAILS', 'button_goto_prod_details.gif');
 define('BUTTON_IMAGE_MORE_REVIEWS', 'button_more_reviews.gif');
 define('BUTTON_IMAGE_CONTINUE_CHECKOUT', 'button_continue_checkout.gif');
+define('BUTTON_IMAGE_ASK_A_QUESTION', 'button_ask_a_question.gif');
 define('BUTTON_IMAGE_CREATE_ACCOUNT', 'button_create_account.gif');
 define('BUTTON_IMAGE_LOG_OFF', 'button_logoff.gif');
 /*
@@ -105,3 +107,4 @@ define('BUTTON_READ_REVIEWS_ALT', 'Leer el comentario');
 define('BUTTON_GOTO_PROD_DETAILS_ALT', 'Ir a la descripción de este producto');
 define('BUTTON_MORE_REVIEWS_ALT', 'Leer más comentarios');
 define('BUTTON_VIEW_ALL_ALT', 'Ver Todo');
+define('BUTTON_ASK_A_QUESTION_ALT', 'Frage zum Artikel');

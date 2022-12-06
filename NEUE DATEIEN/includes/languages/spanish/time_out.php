@@ -1,10 +1,12 @@
 <?php
 /**
- * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ 
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z drbyte $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ 
+ * @version $Id: time_out.php 2013-04-13 12:05:14Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Expiró el tiempo de sesión');
@@ -16,4 +18,3 @@ define('TEXT_INFORMATION_LOGGED_IN', 'Aún está conectado a su cuenta y puede s
 
 define('HEADING_RETURNING_CUSTOMER', 'Entrar');
 define('TEXT_PASSWORD_FORGOTTEN', '¿Ha olvidado su contraseña?');
-?>

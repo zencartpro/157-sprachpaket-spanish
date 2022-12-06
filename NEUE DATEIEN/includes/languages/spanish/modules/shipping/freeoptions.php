@@ -1,10 +1,12 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2006 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: freeoptions.php 3830 2006-06-21 23:47:16Z ajeh $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ 
+ * @version $Id: freeoptions.php 627 2010-08-30 15:05:14Z webchills $
  */
 
 define('MODULE_SHIPPING_FREEOPTIONS_TEXT_TITLE', 'Opciones de Envío Gratis');
@@ -18,5 +20,3 @@ NOTA: El módulo Free Shipping Options no se muestra si Free Shipping está en u
 Ve: freeshipper
 ');
 define('MODULE_SHIPPING_FREEOPTIONS_TEXT_WAY', 'Envío Gratis');
-
-?>

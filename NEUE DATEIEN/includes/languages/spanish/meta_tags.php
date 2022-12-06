@@ -1,21 +1,24 @@
 <?php
 /**
  * Copyright 2022 torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack)
+ * Zen Cart German Specific
  * @copyright Copyright 2003-2022 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-  
+ * @version $Id: meta_tags.php 2022-01-14 19:48:28Z webchills $
  */
 
 // page title
-define('TITLE', '¡Zen Cart!');
+define('TITLE', 'Zen Cart 1.5.7');
 
 // Site Tagline
 define('SITE_TAGLINE', 'El Arte de Comercio Electrónico');
 
 // Custom Keywords - are added globally in addition to page-specific tags 
 define('CUSTOM_KEYWORDS', 'e-comercio, comercio, electrónico, código abierto, tienda, compras online');
+// Language
+define('META_TAG_LANGUAGE', 'es');
 
 // Home Page Only:
   define('HOME_PAGE_META_DESCRIPTION', '');
@@ -51,13 +54,13 @@ define('CUSTOM_KEYWORDS', 'e-comercio, comercio, electrónico, código abierto, 
 
 // separators for meta tag definitions
 // Define Primary Section Output
-  define('PRIMARY_SECTION', ' : ');
+define('PRIMARY_SECTION', ' - ');
 
 // Define Secondary Section Output
   define('SECONDARY_SECTION', ' - ');
 
 // Define Tertiary Section Output
-  define('TERTIARY_SECTION', ', ');
+define('TERTIARY_SECTION', ' - ');
 
 // Define divider ... usually just a space or a comma plus a space
   define('METATAGS_DIVIDER', ' ');

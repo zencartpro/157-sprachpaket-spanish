@@ -6,6 +6,7 @@
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
   
+ * @version $Id: product_reviews_info.php 2022-01-14 19:05:14Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Comentarios');

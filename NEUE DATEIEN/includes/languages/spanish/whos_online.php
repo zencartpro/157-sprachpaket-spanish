@@ -1,24 +1,12 @@
 <?php
-// ñ
-// +----------------------------------------------------------------------+
-// |zen-cart Open Source E-commerce                                       |
-// +----------------------------------------------------------------------+
-// | Copyright (c) 2003 The zen-cart developers                           |
-// |                                                                      |
-// | http://www.zen-cart.com/index.php                                    |
-// |                                                                      |
-// | Portions Copyright (c) 2003 osCommerce                               |
-// +----------------------------------------------------------------------+
-// | This source file is subject to version 2.0 of the GPL license,       |
-// | that is bundled with this package in the file LICENSE, and is        |
-// | available through the world-wide-web at the following url:           |
-// | http://www.zen-cart.com/license/2_0.txt.                             |
-// | If you did not receive a copy of the zen-cart license and are unable |
-// | to obtain it through the world-wide-web, please send a note to       |
-// | license@zen-cart.com so we can mail you a copy immediately.          |
-// +----------------------------------------------------------------------+
-// $Id: whos_online.php 1969 2005-09-13 06:57:21Z drbyte $
-//
+/**
+ * @package languageDefines
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
+ * @copyright Portions Copyright 2003 osCommerce
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ * @version $Id: whos_online.php 2015-12-23 19:28:14Z webchills $
+ */
 define('BOX_HEADING_WHOS_ONLINE', 'Usuarios Conectados');
 define('BOX_WHOS_ONLINE_THEREIS', 'Actualmente hay');
 define('BOX_WHOS_ONLINE_THEREARE', 'Actualmente hay');
@@ -29,4 +17,3 @@ define('BOX_WHOS_ONLINE_MEMBER', 'usuario');
 define('BOX_WHOS_ONLINE_MEMBERS', 'usuarios');
 
 define('BOX_WHOS_ONLINE_ONLINE', 'conectado(s).');
-?>

@@ -1,10 +1,12 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
- * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: picaflor-azul Sun Dec 13 16:47:59 2015 -0500 New in v1.5.5 $
+ * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
+ 
+ * @version $Id: icon_names.php 2016-03-04 22:49:16Z webchills $
  */
 
 // define the icon images used in the project
