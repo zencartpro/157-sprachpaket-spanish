@@ -2,11 +2,11 @@
 /**
  * Zen Cart German Specific
  * Copyright 2022 torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack)
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0 
- * @version $Id: login.php 2022-12-06 12:05:14Z webchills $
+ * @version $Id: login.php 2023-10-29 09:49:16Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Entrar en su Cuenta');
@@ -25,7 +25,7 @@ define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Clientes Registrados');
 
 define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Para continuar, acceda a su cuenta <strong>' . STORE_NAME . '</strong>.');
 
-define('TEXT_PASSWORD_FORGOTTEN', '¿Olvidó su contraseña?');
+
 
 define('TEXT_LOGIN_ERROR', 'Error: Disculpe, el email y/o la contraseña son erróneos.');
 define('TEXT_VISITORS_CART', '<strong>Nota:</strong> Los productos que están en su &quot;Carro de la compra&quot; pasarán a su carro de la compra de usuario registrado. <a href="javascript:session_win();">[Más Información]</a>');

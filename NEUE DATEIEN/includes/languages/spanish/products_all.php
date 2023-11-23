@@ -5,16 +5,8 @@
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: products_all.php 2020-03-01 08:28:14Z webchills $
+ * @version $Id: products_all.php 2023-10-29 20:49:16Z webchills $
  */
 
 define('NAVBAR_TITLE', 'Todos los Productos');
 define('HEADING_TITLE', 'Todos los Productos');
-
-define('TEXT_DATE_ADDED', 'Añadido el:');
-define('TEXT_MANUFACTURER', 'Fabricante:');
-define('TEXT_PRICE', 'Precio:');
-
-define('TEXT_PRODUCTS_WEIGHT', 'Peso: ');
-define('TEXT_PRODUCTS_QUANTITY', 'En stock: ');
-define('TEXT_OUT_OF_STOCK', 'Sin stock');

@@ -1,12 +1,12 @@
 <?php
 /**
  * Copyright 2022 torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack)
- * @copyright Copyright 2003-2022 Zen Cart Development Team
+ * @copyright Copyright 2003-2023 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
   
- * @version $Id: gv_send.php 2022-02-04 18:52:14Z webchills $
+ * @version $Id: gv_send.php 2023-10-29 09:49:16Z webchills $
  */
 
 define('HEADING_TITLE', 'Enviar ' . TEXT_GV_NAME);
@@ -16,8 +16,8 @@ define('NAVBAR_TITLE', 'Enviar ' . TEXT_GV_NAME);
 define('EMAIL_SUBJECT', 'Mensaje de ' . STORE_NAME);
 define('HEADING_TEXT', 'Por favor, introduzca aquí debajo los detalles del ' . TEXT_GV_NAME . ' que desea enviar. Para más información, por favor, vea nuestro <a href="' . zen_href_link(FILENAME_GV_FAQ, '', 'NONSSL').'">' . GV_FAQ . '.</a>');
 define('ENTRY_NAME', 'Nombre del destinatario:');
-define('ENTRY_EMAIL', 'e-mail del destinatario:');
-define('ENTRY_MESSAGE', 'Mensaje al destinatario:');
+
+
 define('ENTRY_AMOUNT', 'Cantidad para enviar');
 define('ERROR_ENTRY_TO_NAME_CHECK', 'No recibimos el nombre del destinatario. Por favor, introdúzcalo debajo. ');
 define('ERROR_ENTRY_AMOUNT_CHECK', 'La cantidad del' . TEXT_GV_NAME . ' es errónea. Introdúzcala otra vez.');
@@ -27,7 +27,7 @@ define('SECONDARY_MESSAGE', 'Estimado %s,<br /><br />' . 'Le han enviado un  ' .
 define('PERSONAL_MESSAGE', '%s dice');
 define('TEXT_SUCCESS', 'Enhorabuena, su ' . TEXT_GV_NAME . ' ha sido enviado correctamente');
 define('TEXT_SEND_ANOTHER', '¿Quiere enviar otro ' . TEXT_GV_NAME . '?');
-define('TEXT_AVAILABLE_BALANCE', 'Saldo actual disponible: ');
+
 
 define('EMAIL_GV_TEXT_SUBJECT', 'Un regalo de %s');
 define('EMAIL_SEPARATOR', '----------------------------------------------------------------------------------------');
