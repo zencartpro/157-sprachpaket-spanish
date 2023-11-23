@@ -6,7 +6,7 @@
 * Zen Cart German Version - www.zen-cart-pro.at
 * @copyright Portions Copyright 2003 osCommerce
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: spanish.php 2023-11-23 14:05:32Z webchills $
+* @version $Id: spanish.php 2023-11-23 20:05:32Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -57,8 +57,9 @@ define('BOX_HEADING_SEARCH' , 'Buscar');
 define('BOX_HEADING_SHOPPING_CART' , 'Carro de la Compra');
 define('BOX_HEADING_SPECIALS' , 'Ofertas');
 define('BOX_HEADING_WHATS_NEW' , 'Novedades');
-define('BOX_INFORMATION_ABOUT_US' , 'Sobre Nosotros');
+
 define('BOX_INFORMATION_CONDITIONS' , 'Condiciones de Uso');
+define('BOX_INFORMATION_WIDERRUFSRECHT', 'Derecho de revocación');
 define('BOX_INFORMATION_ZAHLUNGSARTEN', 'Formas de pago');
 define('BOX_INFORMATION_IMPRESSUM', 'Impressum');
 define('BOX_INFORMATION_CONTACT' , 'Contáctenos');
