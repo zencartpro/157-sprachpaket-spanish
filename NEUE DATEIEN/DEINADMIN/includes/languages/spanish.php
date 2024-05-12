@@ -1,19 +1,24 @@
 <?php
 /**
  * Zen Cart German Specific (158 code in 157 / zencartpro adaptations)
- * @copyright Copyright 2003-2023 Zen Cart Development Team
+ * @copyright Copyright 2003-2024 Zen Cart Development Team
  * Zen Cart German Version - www.zen-cart-pro.at
  * @copyright Portions Copyright 2003 osCommerce
  * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
- * @version $Id: spanish.php 2023-11-23 17:02:04Z webchills $
+ * @version $Id: spanish.php 2024-05-12 17:23:04Z webchills $
  */
 
 // important line - do NOT change
 @setlocale(LC_TIME, ['de_DE.UTF-8', 'de_AT.UTF-8', 'de_CH.UTF-8', 'de_DE.ISO_8859-1','de_DE@euro', 'de_DE', 'de', 'ge', 'deu.deu']);
 //
-
+// texts for admin header
 define('TEXT_PASSWORD_LAST_CHANGE', 'Passwort zuletzt geändert:&nbsp;');
 define('TEXT_LAST_LOGIN_INFO', 'Letztes Login [IP]:&nbsp;');
+define('HEADER_ALT_TEXT','Admin Powered by Zen Cart 1.5.7h - deutsche Version');
+define('HEADER_LOGO_IMAGE','logo.gif');
+define('HEADER_LOGO_WIDTH','240');
+define('HEADER_LOGO_HEIGHT','54');
+//
 define('ADMIN_NAV_DATE_TIME_FORMAT','%A %d %b %Y %X');
 define('ARIA_PAGINATION_','');
 define('ARIA_PAGINATION_CURRENTLY_ON','); jetzt auf Seite %s');
@@ -258,12 +263,9 @@ define('ERROR_SHIPPING_MODULES_NOT_DEFINED','HINWEIS: Sie haben keine Versandart
 define('ERROR_SHIPPING_ORIGIN_ZIP','<strong>WARNUNG:</strong> PLZ des Shops nicht definiert. Stellen Sie sie unter Konfiguration > Versandoptionen entsprechend ein.');
 define('ERROR_TOKEN_EXPIRED_PLEASE_RESUBMIT','FEHLER: Leider ist bei der Verarbeitung Ihrer Daten ein Fehler aufgetreten. Bitte geben Sie die Informationen erneut ein.');
 define('ERROR_UNABLE_TO_DISPLAY_SERVER_INFORMATION','Leider kann Ihre PHP-Konfiguration nicht angezeigt werden, da Ihr Hosting-Unternehmen festgelegt hat, dass [phpinfo] als Teil von [disable_functions] in den php.ini-Einstellungen deaktiviert werden soll.');
-define('ERROR_USPS_STATUS','<strong>WARNUNG:</strong> Dem USPS-Versandmodul fehlt entweder der Benutzername, oder es ist auf TEST statt auf PRODUKTION eingestellt und funktioniert nicht.<br>Wenn Sie keine USPS-Versandangebote abrufen können, wenden Sie sich an USPS, um Ihr Web Tools-Konto auf dem Produktionsserver zu aktivieren. 1-800-344-7779 oder icustomercare@usps.com.');
+
 define('FEMALE','Frau');
-define('HEADER_ALT_TEXT','Admin Powered by Zen Cart 1.5.7g - deutsche Version');
-define('HEADER_LOGO_IMAGE','logo.gif');
-define('HEADER_LOGO_WIDTH','240');
-define('HEADER_LOGO_HEIGHT','70');
+
 define('HEADER_TITLE_ACCOUNT','Account');
 define('HEADER_TITLE_LOGOFF','Abmelden');
 define('HEADER_TITLE_ONLINE_CATALOG','Shop Startseite');
@@ -601,7 +603,7 @@ define('TEXT_PRODUCT_POPUP_BUTTON','<i class="fa-solid fa-comment-dots"></i>');
 define('TEXT_PRODUCT_POPUP_TITLE','bestellte Artikel');
 define('TEXT_PRODUCT_TO_VIEW','Wählen Sie einen Artikel und clicken Sie auf Anzeigen ...');
 define('TEXT_PRODUCT_WEIGHT_UNIT','kg');
-define('TEXT_RESULT_PAGE','Seite %s vonf %d');
+define('TEXT_RESULT_PAGE','Seite %s von %d');
 define('TEXT_SALEMAKER_IMMEDIATELY','Sofort');
 define('TEXT_SALEMAKER_NEVER','Nie');
 define('TEXT_SET_DEFAULT','Als Standard setzen');
@@ -649,7 +651,7 @@ define('TEXT_WORDS_FREE',' Wort(e) frei ');
 define('TEXT_YES','Ja');
 define('WARNING_ADMIN_ACTIVITY_LOG_DATE','WARNUNG: Die Admin Aktivitäten Log Tabelle hat mehr als 2 Monate alte Einträge und sollte archiviert werden, um Speicherplatz zu sparen ...  ');
 define('WARNING_ADMIN_ACTIVITY_LOG_RECORDS','WARNUNG: Die Admin Aktivitäten Log Tabelle hat mehr als 50000 Einträge und sollte archiviert werden, um Speicherplatz zu sparen ... ');
-define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE','<strong>WARNUNG:</strong> Der Shop ist derzeit im Wartungsmodus ...<br>HINWEIS: Sie können die meisten Zahlungs- und Versandmodule im Wartungsmodus nicht testen.');
+define('WARNING_ADMIN_DOWN_FOR_MAINTENANCE','WARNUNG: Der Shop ist derzeit im Wartungsmodus. HINWEIS: Sie können die meisten Zahlungs- und Versandmodule im Wartungsmodus nicht testen.');
 define('WARNING_ATTRIBUTE_COPY_INVALID_ID','WARNUNG: Attribute Kopieren zu Artikel ID#%u abgebrochen. Ungültige ID');
 define('WARNING_ATTRIBUTE_COPY_NO_ATTRIBUTES','WARNUNG: Attribute Kopieren abgebrochen. Keine Attribute gefunden für Quell Artikel ID#%u, "%s".');
 define('WARNING_ATTRIBUTE_COPY_SAME_ID','WARNUNG: Attribute Kopieren abgebrochen. Kann nicht kopieren von Artikel ID#%u zu Artikel ID#%u (gleiche ID).');
@@ -660,10 +662,11 @@ define('WARNING_DATABASE_VERSION_OUT_OF_DATE','Ihre Datenbank scheint einen Patc
 define('WARNING_DOWNLOAD_DIRECTORY_NON_EXISTENT','WARNUNG: Das Verzeichnis für Downloads existiert nicht: ' . DIR_FS_DOWNLOAD . '. Downloadartikel werden nicht funktionieren, solange dieses Verzeichnis nicht existiert.');
 define('WARNING_EMAIL_SYSTEM_DEVELOPER_EMAIL','WARNUNG: ALLE Emails werden gesandt an %1$s (wie definiert in "DEVELOPER_OVERRIDE_EMAIL_ADDRESS") mit EMAIL_TRANSPORT=%2$s.');
 define('WARNING_EMAIL_SYSTEM_DEVELOPER_OVERRIDE','WARNUNG: Der Versand von E-Mails wurde deaktiviert, da der Entwicklerschalter "DEVELOPER_OVERRIDE_EMAIL_STATUS" auf "false" gesetzt ist.');
-define('WARNING_EMAIL_SYSTEM_DISABLED','WARNUNG: Das Emailsystem ist abgeschaltet. Es werden keine Emails versandt, solange Sie das nich untet Konfiguration > Email Optionen aktivieren.');
+define('WARNING_EMAIL_SYSTEM_DISABLED','WARNUNG: Das Emailsystem ist abgeschaltet. Es werden keine Emails versandt, solange Sie das nicht unter Konfiguration > Email Optionen aktivieren.');
 define('WARNING_FILE_UPLOADS_DISABLED','WARNUNG: Datei Uploads sin in der php.ini Konfiguration deaktiviert.');
 define('WARNING_INSTALL_DIRECTORY_EXISTS','SICHERHEITSWARNUNG: Installationsverzeichnis existiert in: %s. Bitte entfernen Sie diesen Ordner aus Sicherheitsgründen.');
 define('WARNING_NO_FILE_UPLOADED','WARNUNG: keine Date hochgeladen.');
+define('WARNING_PAGE_REQUIRES_UPDATE','Diese Seite verwendet nicht includes/admin_html_head.php. Sie muss für die nächste Zen Cart Version aktualisiert werden. Bitte verweisen Sie Ihren Shopbetreuer oder Modulautor auf die folgende <a href="https://www.zen-cart-pro.at/knowledgebase/verwendung-von-admin_html_head-seit-1-5-7/" rel="noopener noreferrer" target="_blank">Dokumentation</aY.');
 define('WARNING_PRIMARY_SERVER_FAILED','WARNUNG: Der primäre Wechselkurs Server (%s) schlägt fehl für %s (%s) - versuche den sekundären Wechselkurs Server.');
 define('WARNING_REVIEW_ROGUE_ACTIVITY','ALARM: Bitte auf mögliche XSS Aktivität prüfen:');
 define('WARNING_SESSION_AUTO_START','WARNUNG: session.auto_start ist aktiviert - bitte deaktivieren Sie diese PHP Einstellung in Ihrer php.ini (ein Neustart Ihres Webservers kann danach erforderlich sein).');

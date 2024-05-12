@@ -2,11 +2,11 @@
 /**
 * Zen Cart German Specific (158 code in 157 / zencartpro adaptations)
 * Copyright 2022-2023 torvista (https://github.com/torvista/Zen_Cart-Spanish_Language_Pack)
-* @copyright Copyright 2003-2023 Zen Cart Development Team
+* @copyright Copyright 2003-2024 Zen Cart Development Team
 * Zen Cart German Version - www.zen-cart-pro.at
 * @copyright Portions Copyright 2003 osCommerce
 * @license https://www.zen-cart-pro.at/license/3_0.txt GNU General Public License V3.0
-* @version $Id: spanish.php 2023-11-23 20:05:32Z webchills $
+* @version $Id: spanish.php 2024-05-12 17:22:32Z webchills $
 */
 // -----
 // Since the languages are now loaded via classes, the $locales definition
@@ -57,7 +57,7 @@ define('BOX_HEADING_SEARCH' , 'Buscar');
 define('BOX_HEADING_SHOPPING_CART' , 'Carro de la Compra');
 define('BOX_HEADING_SPECIALS' , 'Ofertas');
 define('BOX_HEADING_WHATS_NEW' , 'Novedades');
-
+define('BOX_INFORMATION_ABOUT_US','Quiénes somos');
 define('BOX_INFORMATION_CONDITIONS' , 'Condiciones de Uso');
 define('BOX_INFORMATION_WIDERRUFSRECHT', 'Derecho de revocación');
 define('BOX_INFORMATION_ZAHLUNGSARTEN', 'Formas de pago');
@@ -203,6 +203,7 @@ define('ERROR_INVALID_FROM_DATE' , 'Fecha Desde inválida.');
 define('ERROR_INVALID_KEYWORDS' , 'Palabras Claves inválidas.');
 define('ERROR_INVALID_TO_DATE' , 'Fecha Hasta inválida');
 define('ERROR_MAXIMUM_QTY' , 'La cantidad añadida al carro ha sido modificada - hay una restricción del máximo permitido. Ver este producto:<br>');
+define('ERROR_MISSING_SEARCH_OPTIONS','Faltan parámetros de búsqueda');
 define('ERROR_NO_PAYMENT_MODULE_SELECTED' , 'Por favor, seleccione un método de pago para su pedido.');
 define('ERROR_PRICE_FROM_MUST_BE_NUM' , 'Precio Desde debe ser un número.');
 define('ERROR_PRICE_TO_LESS_THAN_PRICE_FROM' , 'Precio Hasta debe ser igual o mayor que el Precio Desde.');
@@ -475,6 +476,7 @@ define('TEXT_NO_FEATURED_PRODUCTS' , 'En breve añadiremos más productos.');
 define('TEXT_NO_NEW_PRODUCTS' , 'Pronto añadiremos nuevos productos.');
 define('TEXT_NO_PROD_RESTRICTIONS' , 'Este Cupón es válido para todos los productos.');
 define('TEXT_NO_PROD_SALES' , 'Este cupón no es válido para productos en rebajas.');
+define('TEXT_NO_SHIPPING_AVAILABLE_ESTIMATOR', 'Lamentablemente no tenemos una opción de envío disponible para la dirección seleccionada.<br><br>Por favor, inicie sesión o cambie la dirección de envío deseada para obtener una estimación de los gastos de envío.<br><br>¡Si aún así no se muestran los gastos de envío, póngase en contacto con nosotros para encontrar alternativas!');
 define('TEXT_NO_REVIEWS' , 'No hay comentarios actualmente.');
 define('TEXT_NUMBER_SYMBOL' , '# ');
 define('TEXT_OF_5_STARS' , '');
