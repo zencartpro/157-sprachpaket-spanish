@@ -7,5 +7,5 @@
  
  * @version $Id: widerrufsrecht.php 650 2010-09-26 08:38:40Z webchills $
  */
-define('NAVBAR_TITLE', 'Impressum');
-define('HEADING_TITLE', 'Impressum');
+define('NAVBAR_TITLE', 'Aviso Legal');
+define('HEADING_TITLE', 'Aviso Legal');
