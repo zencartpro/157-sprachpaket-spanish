@@ -1,5 +1,7 @@
 ##### add spanish definitions for multilanguage countries_names
 
+DELETE FROM `countries_name` WHERE `language_id` = 34;
+
 INSERT IGNORE INTO `countries_name` (`countries_id`, `language_id`, `countries_name`) VALUES
 (1, 34, 'Afganistán'),
 (2, 34, 'Albania'),
