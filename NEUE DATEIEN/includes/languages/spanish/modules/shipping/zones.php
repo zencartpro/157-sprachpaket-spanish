@@ -9,7 +9,7 @@
  * @version $Id: zones.php 655 2012-02-21 17:45:57Z webchills $
  */
 
-define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Tarifas por Zona');
+define('MODULE_SHIPPING_ZONES_TEXT_TITLE', 'Embalaje y Envío');
 define('MODULE_SHIPPING_ZONES_TEXT_DESCRIPTION', 'Tarifas según Zona');
 define('MODULE_SHIPPING_ZONES_TEXT_WAY', 'Enviar a');
 define('MODULE_SHIPPING_ZONES_TEXT_UNITS', 'kg');
