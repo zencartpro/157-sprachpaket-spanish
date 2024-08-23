@@ -23,4 +23,4 @@ define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- continuar para confirmar su pedido
 define('TABLE_HEADING_SINGLEPRICE','Precio');
 define('TABLE_HEADING_PRODUCTIMAGE','Imagen');
 define('TEXT_CONDITIONS_ACCEPTED_IN_LAST_STEP','Tengo <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" target="_blank"><u>Condiciones generales</u></a> y <a href="' . zen_href_link(FILENAME_WIDERRUFSRECHT, '', 'SSL') . '"><u>Derecho de retracto</u></a> leído y aceptado.');
-define('TEXT_NON_EU_COUNTRIES','Nota:<br>Su pedido se entregará en un país no perteneciente a la UE. Además, es posible que se apliquen derechos de aduana, impuestos o costes adicionales como parte de su pedido, que no serán abonados a través de nosotros ni facturados por nosotros.');
+define('TEXT_NON_EU_COUNTRIES','Nota:<br>Si su pedido se envía a un país fuera de la Unión Europea, es posible que sus paquetes estén sujetos a tasas de aduana e impuestos de importación del país de destino. Estos cargos siempre son responsabilidad del destinatario.');
